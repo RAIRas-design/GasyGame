@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.section {
+    background: url('../image/Old.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 650px;
+    width: auto;
+}
+.fanorona {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contenu {
+    width: 50%;
+    height: 400px;
+    background: url('../image/Fanorona.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.photo {
+    width: 50%;
+    height: 400px;
+}
+
+.photo-type {
+    width: 90%;
+    height: 90%;
+    padding: 5% 0 0 5%;
+    border-radius: 10px;
+}
+
+.texte {
+    font-size: large;
+    margin-left: -11px;
+    padding: 10px;
+    margin-bottom: 250px;
+    align-self: flex-end;
+    background-color: #ede6e6;
+}
+
+.video{
+    object-fit: contain;
+    display: block;
+    display: flex;
+    margin: 10px auto;
+    width: -350px;
+    height: -400px;
+}
+
+.jouer {
+    margin: 20px 0;
+    padding: 15px 23px;
+    border: none;
+    background-color: gainsboro;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.jouer:hover {
+    border: none;
+    background-color: gray;
+}
+
